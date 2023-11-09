@@ -1,0 +1,126 @@
+@media(min-width: 320px) and (max-width: 728px) {
+    .container {
+        width: 90%;
+    }
+
+    .container .header {
+        height: 70px;
+    }
+
+    .container .header .logo {
+        width: 100px;
+    }
+
+    .container .main-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container .main-content .content-image {
+        min-width: 100%;
+    }
+
+    .container .main-content .content-info {
+        min-width: 100%;
+    }
+    .container .main-content .content-info .title-info {
+        font-size: 2.3rem;
+    }
+    .container .main-content .content-info .description-info {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    .container .main-content .content-info .button {
+        margin-top: 30px;
+        padding: 15px 90px;
+        font-size: 1rem;
+    }.container footer .social {
+        justify-content: center;
+        gap: 15px;
+        margin-top: 40px;
+    }
+    .container footer .social i {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+    .container footer .social i.fa-facebook-f {
+        padding: 5px 10px;
+    }
+}
+
+@media(min-width: 1024px) and (max-width: 1280px) {
+    .container {
+        width: 90%;
+    }
+
+    .container .header {
+        height: 120px;
+    }
+
+    .container .header .logo {
+        margin-top: 30px;
+    }
+
+    .container .main-content .content-info .title-info {
+        font-size: 2.2rem;
+        margin-top: 25px;
+    }
+
+    .container .main-content .content-info .description-info {
+        font-size: 1.04rem;
+        margin-top: 20px;
+    }
+
+    .container .main-content .content-info .button {
+        margin-top: 20px;
+        padding: 8px 40px;
+        font-size: 1.04rem;
+    }
+}
+
+@media(min-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+
+    .container .header {
+        height: 150px;
+    }
+
+    .container .header .logo {
+        width: 280px;
+        margin-top: 40px;
+    }
+
+    .container .main-content .content-info .title-info {
+        font-size: 3.2rem;
+        margin-top: 35px;
+    }
+
+    .container .main-content .content-info .description-info {
+        font-size: 1.45rem;
+        margin-top: 25px;
+    }
+
+    .container .main-content .content-info .button {
+        margin-top: 35px;
+        padding: 12px 70px;
+    }
+
+    .container footer .social {
+        margin-top: 20px;
+    }
+
+    .container footer .social i {
+        font-size: 2rem;
+        padding: 15px;
+    }
+
+    .container footer .social i.fa-facebook-f {
+        padding: 15px 25px;
+    }
+
+    .container footer .social {
+        margin-bottom: 0px;
+    }
+}
